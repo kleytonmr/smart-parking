@@ -10,6 +10,23 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Smart Parking</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Início</a>
+            <a class="nav-link" href="#">Como funciona</a>
+            <a class="nav-link" href="#">Fale com a gente</a>
+          </nav>
+        </div>
+      </header>
+      <%= yield %>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p><a href="https://getbootstrap.com/">Faculdade UCL</a>, by <a href="https://twitter.com/mdo">@kleytonmr, @jonhwili</a>.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -202,3 +202,324 @@ puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
 puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (706.1ms)[0m  [1m[35mCREATE DATABASE "smart-parking_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (668.2ms)[0m  [1m[35mCREATE DATABASE "smart-parking_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2020-06-01 21:03:33 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 20ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-01 22:57:32 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (5.7ms)
+Completed 200 OK in 36ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancy" for ::1 at 2020-06-02 00:31:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/vacancy"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/vacancy/index" for ::1 at 2020-06-02 00:31:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/vacancy/index"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/vacancies" for ::1 at 2020-06-02 00:39:25 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 715ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /Users/kleyton.ramos/projects/smart-parking/app/assets/config
+  /Users/kleyton.ramos/projects/smart-parking/app/assets/images
+  /Users/kleyton.ramos/projects/smart-parking/app/assets/javascripts
+  /Users/kleyton.ramos/projects/smart-parking/app/assets/stylesheets
+  /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/actioncable-5.2.4.3/lib/assets/compiled
+  /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/activestorage-5.2.4.3/app/assets/javascripts
+  /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/actionview-5.2.4.3/lib/assets/compiled
+  /Users/kleyton.ramos/.rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/kleyton.ramos/projects/smart-parking/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__339216865813844122_70310777404820'
+Started PUT "/__web_console/repl_sessions/d9d596e85941a9df5194fe3e2884b8b1" for ::1 at 2020-06-02 00:39:50 -0300
+Started GET "/vacancies" for ::1 at 2020-06-02 00:43:11 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 8600ms (Views: 8589.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 00:43:38 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 241ms (Views: 211.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 00:56:10 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3472ms (Views: 3461.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 00:57:18 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1558ms (Views: 1547.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 00:57:47 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 187ms (Views: 173.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 00:59:01 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 586ms (Views: 511.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 00:59:27 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 203ms (Views: 190.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:00:00 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 129ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:02:52 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 169ms (Views: 164.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:07:48 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 213ms (Views: 189.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:08:50 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 303ms (Views: 288.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:09:47 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 178ms (Views: 172.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:12:08 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4295ms (Views: 4288.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:16:22 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 237ms (Views: 223.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:17:30 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 228ms (Views: 223.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:18:20 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4787ms (Views: 4773.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:18:35 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4534ms (Views: 4528.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:18:48 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 531ms (Views: 525.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:19:40 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4088ms (Views: 4082.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:20:34 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 239ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:20:43 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 135ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:20:46 -0300
+Started GET "/vacancies" for ::1 at 2020-06-02 01:20:46 -0300
+Processing by VacanciesController#index as HTML
+Started GET "/vacancies" for ::1 at 2020-06-02 01:20:46 -0300
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.6ms)
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1301ms (Views: 1266.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 976ms (Views: 962.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 849ms (Views: 830.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vacancies" for ::1 at 2020-06-02 01:23:15 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 200ms (Views: 194.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-02 01:23:50 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1815ms (Views: 1787.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-02 01:24:20 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 150ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-06-02 01:24:20 -0300
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.4ms)
+Started GET "/" for ::1 at 2020-06-02 01:24:21 -0300
+Started GET "/" for ::1 at 2020-06-02 01:24:21 -0300
+Completed 200 OK in 372ms (Views: 361.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by VacanciesController#index as HTML
+Processing by VacanciesController#index as HTML
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.6ms)
+  Rendering vacancies/index.html.erb within layouts/application
+  Rendered vacancies/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 422ms (Views: 370.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 435ms (Views: 421.8ms | ActiveRecord: 0.0ms)
+
+
