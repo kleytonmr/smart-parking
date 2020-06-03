@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'vacancies#index'
+  root 'panels#index'
 
   post '/api', to: 'vacancies#insert'
 
-  resources :vacancies
+  resources :dashboards
 end

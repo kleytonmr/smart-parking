@@ -3,7 +3,6 @@ class VacanciesController < ApplicationController
 
   def insert
     Vacancy.create(vacancy_params)
-    # Vacancy.create(status: '1', zone: 'teste', position: '4' )
   end
 
   private
