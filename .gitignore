@@ -36,3 +36,4 @@ id_rsa
 .rspec-local
 /node_modules
 /yarn-error.log
+log/development.lo
