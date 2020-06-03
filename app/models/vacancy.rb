@@ -1,5 +1,5 @@
 class Vacancy < ApplicationRecord
-  validates :status, presence: true
+  validates :status, inclusion: { in: [true, false] }
   validates :zone, presence: true
   validates :position, presence: true
 

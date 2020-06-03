@@ -13,6 +13,7 @@ while true do
   while (i = sp.gets.chomp) do
     params = i.split(",")
     `curl -H "Content-Type: application/json" -X POST -d '{"status:"#{ params[0] }","zone":"#{ params[1] }", "position":"#{ params[2] }"}' http://localhost:3000/api/`
+    # http://localhost:3000/api/?status=false&zone=norte&position=4
   end
 end
 sp.close
